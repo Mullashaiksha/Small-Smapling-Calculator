@@ -66,7 +66,7 @@ def calculate(p1, p2, p3):
     output_text += f"pa3min: {pa3min}\n atimin: {atimin}\n Ddmin: {Ddmin}\n Dnmin: {Dnmin}\n AOQmin: {AOQmin}\n TCmin: {TCmin}"
     return output_text
 
-st.title('BaisApp')
+st.title('Small Sampling Calculator')
 
 p1 = st.text_input('Value for p1:')
 p2 = st.text_input('Value for p2:')
